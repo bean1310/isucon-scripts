@@ -2,6 +2,16 @@
 
 ISUCONのセットアップスクリプト置き場．
 
+## Get Script
+
+require: wget
+
+```bash
+wget https://raw.githubusercontent.com/bean1310/isucon-scripts/main/src/setup.sh && \
+chmod +x setup.sh && \
+./setup.sh
+```
+
 ## 内容物
 
 ```
