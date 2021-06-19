@@ -40,8 +40,9 @@ if which apt-get > /dev/null; then
     initApt
 fi
 
-mkdir .bin
+mkdir ${HOME}/.bin
 echo "export PATH=${HOME}/.bin:$PATH" > ${HOME}/.bash_profile
+export PATH=${HOME}/.bin:$PATH
 
 install_myprofiler
 
